@@ -21,6 +21,7 @@ app.get("/hello/:name", function(req, res) {
 app.get('/bye/:name?', function(req, res) {
     if(req.params.name) {
         res.send("Bye, "+req.params.name);
+        return;
     }
 
     res.send("Bye!");

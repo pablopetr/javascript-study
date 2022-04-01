@@ -32,4 +32,4 @@ Query params are optional parameters passing through URL like this https://www.g
 If you access https://www.google.com/search?q=blue+smile you will se a funny **blue** smile. We are using two query parameters, blue, and smile, concatenated with *+*.
 ![alt text for screen readers](https://cdn5.vectorstock.com/i/1000x1000/17/24/blue-smile-vector-1341724.jpg)
 
-In line 30, the application is getting query param called *name*. In line 32 is creating a condition of existence of *name* query param. If *name* exist, we use a custom message, saying *"Welcome, name"*.
+In line 31, the application is getting query param called *name*. In line 33 is creating a condition of existence of *name* query param. If *name* exist, we use a custom message, saying *"Welcome, name"*.
