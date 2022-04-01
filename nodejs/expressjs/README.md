@@ -1,5 +1,5 @@
 # Project
-This project aim is about express framework.
+This project aim is to study expressjs framework.
 
 ### NPM
 To start this project, I ran ```` npm init ```` to create our *package.json* and document my project libraries and init repository
