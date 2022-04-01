@@ -10,9 +10,7 @@ This project is using *nodemon*. This package is responsible for restart the ser
 
 ## Express
 
-[The first](./index.js#L1) line is import express library from node_modules. Express is not a library, it's a framework, a set of libraries with a context to help us to solve some problems and with a proprosal. 
-
-[````const express = require("express")````](./index.js#L2) is importing this framework to our project. ```` const app = express ```` is creating and starting the express application, storing this application in ````app ````variable.
+[The first](./index.js#L1) line is importing express library from node_modules. Express is not a library, it's a framework, a set of libraries with a context to help us to solve some problems and with a proprosal.  [```` const app = express() ````](./index.js#L2) is creating and starting the express application, storing this application in [````app ````](./index.js#L2) variable.
 
 ### Routes
 [Line 5](./index.js#L5) is creating a route. When you access http://localhost:8080 you are accessing the route "/", it's the first route. In this line, we are creating this route, to receive and return a response when the client access the "/" route. In [line 7]((./index.js#L7)), we are sending a response with a text. If you access http://localhost:8080 you will se *Welcome home!* text. 
