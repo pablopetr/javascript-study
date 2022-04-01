@@ -32,6 +32,7 @@ app.get('/welcome', function(req, res) {
 
     if(query) {
         res.send("Welcome, "+query);
+        return;
     }
 
     res.send("Welcome!");
